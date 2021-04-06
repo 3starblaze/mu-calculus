@@ -1,0 +1,8 @@
+- formula: \( (u+v)' = u' + v' \)
+  name: Sum
+
+- formula: \( (x^\alpha)' = \alpha x^{\alpha - 1} \)
+  name: Power
+
+- formula: \( (u + v)' = u' + v' \)
+  name: Multiplication
