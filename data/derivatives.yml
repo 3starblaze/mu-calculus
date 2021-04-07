@@ -4,5 +4,50 @@
 - formula: \( (x^\alpha)' = \alpha x^{\alpha - 1} \)
   name: Power
 
-- formula: \( (u + v)' = u' + v' \)
+- formula: \( (u \cdot v)' = u'v + uv' \)
   name: Multiplication
+
+- formula: \( (C \cdot v) = C \cdot v'\)
+  name: Constant multiplication
+
+- formula: \( (\frac{u}{v})' = \frac{u'v - uv'}{v^2}\)
+  name: Division
+
+- formula: \( (f(u(x)))' = f'_u(u) \cdot u'_x(x) \)
+  name: Chain rule
+
+- formula: \( (a^x)' = a^x \ln \alpha \)
+  name: Exponent
+
+- formula: \( (e^x)' = e^x \)
+  name: Euler's number exponent
+
+- formula: \( (\ln x)' = \frac{1}{x} \)
+  name: Natural logarithm
+
+- formula: \( (\log_a x)' = \frac{1}{x \cdot \ln a} \)
+  name: Logarithm
+
+- formula: \( (\sin{x})' = \cos{x} \)
+  name: Sine
+
+- formula: \( (\cos{x})' = -\sin{x} \)
+  name: Cosine
+
+- formula: \( (\tan{x})' = \frac{1}{\cos^2{x}} \)
+  name: Tangent
+
+- formula: \( (\cot{x})' = - \frac{1}{\sin^2{x}} \)
+  name: Cotangent
+
+- formula: \( (\arcsin{x})' = \frac{1}{\sqrt{1-x^2}} \)
+  name: Arcsine
+
+- formula: \( (\arccos{x})' = - \frac{1}{\sqrt{1-x^2}} \)
+  name: Arccosine
+
+- formula: \( (\arctan{x})' = \frac{1}{1+x^2} \)
+  name: Arctangent
+
+- formula: \( (arccot x)' = - \frac{1}{1+x^2} \) # There is no \arccot{}
+  name: Arccotangent
