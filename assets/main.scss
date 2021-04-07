@@ -1,5 +1,35 @@
-.main-bar {
-    h1 {
-        color: red;
+body {
+    background: #eee;
+    color: #333;
+    font-family: Helvetica;
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: 2em 2em auto 2em 2em;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 12px;
     }
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    color: #222;
+}
+
+.main-bar {
+    padding: 2em;
+    grid-column: 3 / span 1;
+}
+
+.derivative-entry-container {
+    grid-column: 2 / span 3;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 0 1em;
+}
+
+.derivative-entry {
+    display: contents;
 }
