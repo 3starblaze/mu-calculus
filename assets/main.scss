@@ -35,6 +35,11 @@ h1, h2, h3, h4, h5, h6 {
 .derivative-entry {
     display: contents;
 
+    &:nth-child(4n):after {
+        content: "";
+        grid-column: span 2;
+    }
+
     .formula {
         margin: 0;
     }
