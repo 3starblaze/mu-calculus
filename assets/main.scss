@@ -26,10 +26,20 @@ h1, h2, h3, h4, h5, h6 {
 .derivative-entry-container {
     grid-column: 2 / span 3;
     display: grid;
+    align-items: end;
     grid-template-columns: auto 1fr;
+    grid-auto-rows: 2em;
     gap: 0 1em;
 }
 
 .derivative-entry {
     display: contents;
+
+    .formula {
+        margin: 0;
+    }
+
+    .name {
+        margin: 0;
+    }
 }
